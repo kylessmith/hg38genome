@@ -436,7 +436,7 @@ def get_repeats() -> IntervalFrame:
             Repeat locations
     """
 
-    par = get_data_file("hg19_repeats.parquet")
+    par = get_data_file("hg38_repeats.parquet")
     repeats = IntervalFrame.read_parquet(par)
 
     return repeats

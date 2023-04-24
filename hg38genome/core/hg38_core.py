@@ -724,8 +724,6 @@ class Hg38Genome(object):
     def repeats(self) -> IntervalFrame:
         """
         """
-
-        raise NotImplementedError("Feature not implemented yet.")
         
         return get_repeats()
 
